@@ -19,4 +19,3 @@ target_link_libraries(fabrik_run PRIVATE fabrik_lib
                                  ${OPENGL_LIBRARIES} 
                                  ${X11_LIBRARIES}
                                  ${X11_Xrender_LIB})
-
