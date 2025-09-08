@@ -10,4 +10,4 @@ The idea is to consider particles connected to neighbours by springs and dampers
 
 ![graph](comp_graph.png)
 
-each "connection" represend a spring and a damper. 
+each "connection" in the above diagram represents a spring AND a damper. 
