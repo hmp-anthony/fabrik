@@ -9,7 +9,7 @@ Cloth::Cloth()
       dt(0.0f),
       dx(0.0f),
       mass(0.0f),
-      gravity(0),
+      gravity(-0.4),
       shortDamp(0.0f),
       shortSpring(0.0f),
       longDamp(0.0f),

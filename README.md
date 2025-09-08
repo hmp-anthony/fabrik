@@ -1,5 +1,7 @@
 # Fabrik 
 
+![ss](screenshot.png)
+
 To run, all you need is to type `make` and `./fabric_run`
 
 From reading "Mathematics for 3D Game Programming and Computer Graphics" by Eric Lengyel I implemented a cloth simulator.

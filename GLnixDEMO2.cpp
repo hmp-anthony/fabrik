@@ -63,8 +63,8 @@ int main() {
 
 GLnixDEMO::GLnixDEMO()
     : GLnixAPP(),
-      phi(1.5f * MathHelper::Pi),
-      theta(1.5f * MathHelper::Pi),
+      phi(1.75f * MathHelper::Pi),
+      theta(0.5f * MathHelper::Pi),
       radius(10) {
     mousex = 0;
     mousey = 0;
@@ -82,10 +82,8 @@ bool GLnixDEMO::Init() {
 
     cloth.Init(200, 200, 0.025, 0.01, 3000, 2500, 1.1, 1.5, 0.8);  // Blue velvet, I like it
 
-    //cloth.Init(10, 10, 1, 0.01, 1, 0, 0, 0, 0.8); 
     BuildClothGeometryBuffers();
-    projMatrix =
-        formProjMatrix(0.25f * MathHelper::Pi, AspectRatio(), 1.0f, 1000.0f);
+    projMatrix =formProjMatrix(0.25f * MathHelper::Pi, AspectRatio(), 1.0f, 1000.0f);
 
     glEnable(GL_DEPTH_TEST);
     glEnable(GL_CULL_FACE);
@@ -106,7 +104,7 @@ void GLnixDEMO::UpdateScene(float dt) {
 
     float T = timer.GameTime();
 
-     cloth.Update(dt, MathHelper::RandF(0.9, 1.0),
+    cloth.Update(dt, MathHelper::RandF(0.9, 1.0),
                  MathHelper::RandF(1.0, 3.0) * cos(3 * T),
                  MathHelper::RandF(0.1, 0.2));  // C/B
 
