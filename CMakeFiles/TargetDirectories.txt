@@ -1,0 +1,4 @@
+/home/anthonygoddard962/fabrik/CMakeFiles/fabrik_lib.dir
+/home/anthonygoddard962/fabrik/CMakeFiles/fabrik_run.dir
+/home/anthonygoddard962/fabrik/CMakeFiles/edit_cache.dir
+/home/anthonygoddard962/fabrik/CMakeFiles/rebuild_cache.dir
