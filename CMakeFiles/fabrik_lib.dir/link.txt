@@ -1,2 +1,0 @@
-/usr/bin/ar qc libfabrik_lib.a CMakeFiles/fabrik_lib.dir/antmath.cpp.o CMakeFiles/fabrik_lib.dir/cloth.cpp.o CMakeFiles/fabrik_lib.dir/GeometryGen.cpp.o CMakeFiles/fabrik_lib.dir/GLnixAPP.cpp.o CMakeFiles/fabrik_lib.dir/GLnixDEMO2.cpp.o CMakeFiles/fabrik_lib.dir/MathHelper.cpp.o CMakeFiles/fabrik_lib.dir/Timer.cpp.o
-/usr/bin/ranlib libfabrik_lib.a
