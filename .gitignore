@@ -1,5 +1,5 @@
 CMakeCache.txt
 CMakeFiles/
-cmake_imstall.cmake
-fabric_run
+cmake_install.cmake
+fabrik_run
 libfabrik_lib.a
